@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Regular.ttf");
+	src: url("../fonts/Roboto-Regular.woff2");
+}
+
+html,body{margin: 0; padding: 0; font-family: "Roboto";} 
+*{box-sizing: border-box;}
+
+.container-fluid{width: 100%; margin-left: auto; margin-right: auto;}
+
+.container{width: 1140px; margin-left: auto; margin-right: auto;}
+
+.row{display: flex; flex-wrap: wrap;}
+
+.col-12{flex: 0 0 100%; max-width: 100%;}
+.col-11{flex: 0 0 91.66%; max-width: 91.66%;}
+.col-10{flex: 0 0 83.33%; max-width: 83.33%;}
+.col-9{flex: 0 0 75%; max-width: 75%;}
+.col-8{flex: 0 0 66.66%; max-width: 66.66%;}
+.col-7{flex: 0 0 58.33%; max-width: 100%;}
+.col-6{flex: 0 0 50%; max-width: 50%;}
+.col-5{flex: 0 0 41.66%; max-width: 41.66%;}
+.col-4{flex: 0 0 33.33%; max-width: 33.33%;}
+.col-3{flex: 0 0 25%; max-width: 25%;}
+.col-2{flex: 0 0 16.66%; max-width: 16.66%;}
+.col-1{flex: 0 0 8.33%; max-width: 8.33%;}
+
+.card{width: 100%; height: 300px; background: #525252;padding-top: 30px; padding-bottom: 30px;}
+.card-2{width: 100%; height: 300px; background: #FFFFFF; padding-top: 30px; padding-bottom: 30px;}
+.card-img{width: 100%; display: block; margin-left: auto; margin-right: auto;}
+.card-img2{ display: block; margin-left: auto; margin-right: auto;}
+.card-link{text-align:center;}
+.card-link a{color:#FFFFFF; text-decoration:none; font-size:18px;}
+.card-link a:hover{color:#FF0000 !important;}
+.card-link2 a{color:#FF0000; text-decoration:none; font-size:12px;}
+.card-link a:hover{color: #FFFFFF;}
+
+.bg-deepgray{background: #1d1d1d;}
+.bg-red{background: #FF0000;}
+.bg-grey{background: #525252;}
+.bg-white{background: #FFFFFF;}
+.bg-black{background: #000000;}
+
+.font-1{color: #FFFFFF; font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";}
+
+.right-bg{background: url("../images/Layer 2.png") no-repeat right bottom #1d1d1d;}
+
+.img-fluid{width: 100%;}
+
+.mx-0{margin-left: 0; margin-right: 0;}
+.mx-auto{margin-left: auto; margin-right: auto;}
+.mx-1{margin: 20%; width: 80%;}
+.pt{padding-top: 15px;}
+.pt1{padding-top: 13px;}
+.pt2{padding-top: 11px;}
+.pb{padding-bottom: 15px;}
+
+.text-1{margin: 10% auto; width: 80%}
+.text-1 a{color:#7B7B7B; text-decoration: none; font-size: 20px;}
+.text-2{color: #7b7b7b; text-decoration: none; font-size: 20px; text-align: center;}
+.text-3{margin: 10%; width: 80%;}
+.text-4{margin: 20% 10%; width: 80%}
+.text-5{margin: 7% 5% 7% 62%; width: 30%; text-align: center;}
+
+.text-1 .more{color: #FF0000; font-size: 15px; text-decoration: none;}
+.text-1 .boxtext{border: 1px solid #A7A7A7; color:  #A7A7A7; text-decoration: none; font-size: 15px; padding: 10PX 20px;}
+.text-1 .boxtext:hover{background: 1px solid #FFFFFF; color:#FFFFFF;}
+.text-3 .boxtext1{border: 1px solid #A7A7A7; color:  #A7A7A7; text-decoration: none; font-size: 15px; padding: 10PX 20px; margin-bottom: 20px}
+.text-3 .boxtext1:hover{background: 1px solid #FFFFFF; color:#FFFFFF;}
+.text-center{text-align: center;}
+.text-4 .boxtext2{border: 1px solid #FFFFFF; color: #FFFFFF; text-decoration: none; font-size: 15px; padding: 10PX 20px; margin-bottom: 20px}
+.text-4 .boxtext2:hover{background: 1px solid #A7A7A7; color:#A7A7A7;}
+.text-4 .boxtext3{background: #FF0000; color: #FFFFFF; text-decoration: none; font-size: 15px; padding: 10PX 20px; margin-bottom: 20px}
+.text-4 .boxtext3:hover{ color:#A7A7A7;}
+.text-5 .boxtext4{border: 1px solid #FFFFFF; color: #FFFFFF; text-decoration: none; font-size: 15px; padding: 10PX 20px; margin-bottom: 20px}
+.text-5 .boxtext4:hover{background: 1px solid #A7A7A7; color:#A7A7A7;}
+
+
+.redfont{font-size: 30px; color: #FF0000;}
+.redfont-2{font-size: 15px; color: #FF0000; text-decoration: underline white;}
+.whitefont{font-size: 30px; color: #FFFFFF;}
+.whitefont-2{font-size: 15px; color: #FFFFFF;}
+.whitefont-3{font-size: 12px; color: #FFFFFF; text-align: center;}
+.whitefont-4{font-size: 50px; color: #FFFFFF;}
+.whitefont-5{color: #FFFFFF;}
+.orangefont{font-size: 20px; color:#E15E20; text-align: left;}
+
+.white-heading{color: #FFFFFF; text-align: center;}
+.red-heading{color: #FF0000; text-align: center; text-decoration: underline}
+
+.bg-1{background: url("../images/Untitled-1.png")no-repeat; background-size: cover;}
+.bg-2{background: url("../images/Desktop Screenshot 2020.12.16 - 22.08.53.66 (3) (1).jpg") no-repeat right;  background-size: cover;}
+.bg-3{background: url("../images/AMD-Ryzen-5000-Series_DeLidded_51-scaled.jpg") no-repeat;  background-size: cover;}
+.bg-4{background: url("../images/Untitled-1.jpg") no-repeat; background-size: cover;}
+
+.left{text-align: left;}
+.pic-size{width: 40%;}
+.textcenter{text-align: center;}
+.fontsize{font-size: 12px;}
+.center{display:block; margin-left: auto; margin-right: auto;}
+
+.footer-nav{margin: 25px auto; padding: 0px;}
+.footer-nav li{display: block;}
+.footer-nav a{text-decoration: none; font-size: 15px; color: #FFFFFF; }
+.footer-nav a:hover{color: #ABABAB; }
+ .boxtext5{background: #FF0000; color: #FFFFFF; text-decoration: none; font-size: 12px; padding: 10px 20px; margin-bottom: 20px}
+ .boxtext5:hover{ color:#A7A7A7;}
+
+.icon{color:#FFFFFF; text-decoration: none; padding: 10px;}
+
+.nav{margin: 5px 5%; width: 90%}
+.navbar{margin: 0; padding: 0; margin-top: 40px; float: left;}
+.navbar li{display: block; display:inline; margin-left: 10px; margin-right: 10px;}
+.navbar li a{text-decoration: none; color:#FFFFFF;}
+.ml{margin-left: 75px;}
+.ml-1{margin-left: 15px;}
+.my-6{margin-top: 60px; margin-bottom: 60px; }
+
+/*----media----*/
+
+@media screen and (max-width: 992px)
+{
+	.nav{margin: 5px 1%; width: 98%}
+	.navbar li{display: block; display:inline; margin-left: 5px; margin-right: 5px;}
+	.ml{margin-left: 45px;}
+	.fs{font-size: 14px;}
+}
+@media screen and (max-width: 768px)
+{
+	
+}
+@media screen and (max-width: 576px)
+{
+	
+}
+@media screen and (max-width: 360px)
+{
+	
+}
